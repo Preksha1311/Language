@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main()
 {
-    int j;
-    for(j=0;j<=20;j++)
-    printf("%d  ",j%10);
+int j;
+for(j=1;j<=11;j++){
+printf("%d ",j+2);
+}
+int i=0;
+printf("\n\n%d",i);
     return 0;
 }

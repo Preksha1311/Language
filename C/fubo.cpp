@@ -5,7 +5,6 @@ int fib (int n){
       //base 
 if (n<=1)
     return n;
-
     cout<<"hi";
     return (fib(n-1) + fib(n-2));
 }

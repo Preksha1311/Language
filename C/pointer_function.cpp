@@ -8,8 +8,7 @@ int i=x+y;
 
 int main(){
     //pointer of a function
-int (*p) (int, int);
-        cout <<(*p)(5,7);
-    
+
+        cout <<sum(5,7);
     return 0;
 }

@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main() {
 	// your code goes here
 int t;
@@ -13,9 +12,9 @@ char arr[x];
 	for(int i=0;i<x;i++){
 	    cin>>arr[i];
 	}
-// 	for(int i=0;i<x;i++){
-// 	    cout<<arr[i];
-// 	}
+	for(int i=0;i<x;i++){
+	    cout<<arr[i];
+	}
 	int count=0;
 	for(int i=0;i<x;i++){
 	    if(arr[i]=='a'||arr[i]=='e'||arr[i]=='i'||arr[i]=='o'||arr[i]=='u')
@@ -24,12 +23,14 @@ char arr[x];
 	    }
 	    else{
 	        count++;
+	        
 	    }
 	        if(count>=4){
 	            cout<<"NO"<<endl;
-	            break;
+	    
+	            
 	        }
-            else if(i+1==x and count<4){
+            else if(i>=x&&count<4){
 cout<<"yes"<<endl;
             }
 	    

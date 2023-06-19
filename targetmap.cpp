@@ -9,7 +9,7 @@ ll countSubarray_having_sumk(vector<ll> &arr, ll target) {
 // for(int i=0;i<n;i++){
 // prefsum+=arr[i];
 //}
-    for (in ti = 0; i < n; i++) pref
+    for (in ti = 0; i < n; i++) 
     }
 
 int main() {

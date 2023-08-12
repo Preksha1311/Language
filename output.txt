@@ -1,1 +1,2 @@
-26 30 33 38 1 3 6 11 12 17 22 
+how much rain does it can  hold between the buildings?
+the amount will be:8
